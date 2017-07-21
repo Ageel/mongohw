@@ -1,0 +1,28 @@
+{
+  "name": "mongohw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ageel/mongohw.git"
+  },
+  "author": "Ageel Shatry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ageel/mongohw/issues"
+  },
+  "homepage": "https://github.com/Ageel/mongohw#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
